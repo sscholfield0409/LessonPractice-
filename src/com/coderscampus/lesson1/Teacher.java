@@ -5,6 +5,7 @@ public class Teacher {
 	private String levelOfEducation;
 	
 	public Teacher () {
+		System.out.println("Inside the Teacher constructor");
 		this.classes = "No Classes Assigned";
 		this.levelOfEducation = "No Level Of Education Assigned";
 	
