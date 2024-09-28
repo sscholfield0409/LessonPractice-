@@ -12,6 +12,11 @@ public class Lesson1Application {
 		
 		System.out.println(compSci.getClasses());
 		System.out.println(compSci.getLevelOfEducation());
+		
+		QuantamPhysicsTeacher quantamPhysicsTeacher = new QuantamPhysicsTeacher();
+		 
+		System.out.println(quantamPhysicsTeacher.getClasses());
+		System.out.println(quantamPhysicsTeacher.getLevelOfEducation());
 
 	}
 
