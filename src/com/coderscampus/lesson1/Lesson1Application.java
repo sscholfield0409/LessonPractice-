@@ -8,6 +8,10 @@ public class Lesson1Application {
 		System.out.println(physicsTeacher.getClasses());
 		System.out.println(physicsTeacher.getLevelOfEducation());
 	
+		CompSci compSci = new CompSci();
+		
+		System.out.println(compSci.getClasses());
+		System.out.println(compSci.getLevelOfEducation());
 
 	}
 
