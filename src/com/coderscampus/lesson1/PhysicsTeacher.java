@@ -7,5 +7,9 @@ public class PhysicsTeacher extends Teacher {
 		this.setClasses("PHYS 101, PHYS 201");
 		this.setLevelOfEducation("Masters of Science");
 	}
+	
+	public void teach () {
+		System.out.println("I'm a physics teacher and I'm now teaching physics");
+	}
 
 }
