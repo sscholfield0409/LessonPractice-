@@ -7,5 +7,9 @@ public class QuantamPhysicsTeacher extends PhysicsTeacher {
 		this.setClasses("QPHY 101, qphy 201");
 		this.setLevelOfEducation("PHD");
 	}
+	
+	public void teach () {
+		System.out.println("I am a quantam physics teacher, and I'm now in a super-position of teaching");
+	}
 
 }
