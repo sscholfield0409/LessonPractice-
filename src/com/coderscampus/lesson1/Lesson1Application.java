@@ -7,17 +7,20 @@ public class Lesson1Application {
 		
 		System.out.println(physicsTeacher.getClasses());
 		System.out.println(physicsTeacher.getLevelOfEducation());
-	
+	    physicsTeacher.teach();
+	    System.out.println("-----");
+	    
 		CompSci compSci = new CompSci();
-		
 		System.out.println(compSci.getClasses());
 		System.out.println(compSci.getLevelOfEducation());
+		compSci.teach();
+		System.out.println("----");
 		
 		QuantamPhysicsTeacher quantamPhysicsTeacher = new QuantamPhysicsTeacher();
-		 
 		System.out.println(quantamPhysicsTeacher.getClasses());
 		System.out.println(quantamPhysicsTeacher.getLevelOfEducation());
-
+		quantamPhysicsTeacher.teach();
+		System.out.println("----");
 	}
 
 }
