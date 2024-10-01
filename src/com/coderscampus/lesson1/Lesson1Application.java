@@ -13,7 +13,7 @@ public class Lesson1Application {
 		CompSci compSci = new CompSci();
 		System.out.println(compSci.getClasses());
 		System.out.println(compSci.getLevelOfEducation());
-		compSci.teach("Boogie scholfield", 33);
+		compSci.teach(33);
 		System.out.println("----");
 		
 		QuantamPhysicsTeacher quantamPhysicsTeacher = new QuantamPhysicsTeacher();

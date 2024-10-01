@@ -16,8 +16,8 @@ public class Teacher {
 		System.out.println("I'm a teacher called " + teacherName + " and I'm now teaching physics");
 	}
 	
-	public void teach (String teacherName, int age) {
-		System.out.println("I'm a " + age + " year old teacher called " + teacherName + " and I'm now teaching physics");
+	public void teach (int age) {
+		System.out.println("I'm a " + age + " year old teacher and I'm now teaching physics");
 	}
 	
 	
