@@ -16,6 +16,11 @@ public class Teacher {
 		System.out.println("I'm a teacher called " + teacherName + " and I'm now teaching physics");
 	}
 	
+	public void teach (String teacherName, int age) {
+		System.out.println("I'm a " + age + " year old teacher called " + teacherName + " and I'm now teaching physics");
+	}
+	
+	
 	public Teacher () {
 		System.out.println("Inside the Teacher constructor");
 		this.classes = "No Classes Assigned";
