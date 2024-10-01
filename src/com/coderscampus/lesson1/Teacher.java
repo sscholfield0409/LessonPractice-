@@ -13,7 +13,7 @@ public class Teacher {
 	}
 	
 	public void teach (String teacherName) {
-		System.out.println("I'm a physics teacher called " + teacherName + " and I'm now teaching physics");
+		System.out.println("I'm a teacher called " + teacherName + " and I'm now teaching physics");
 	}
 	
 	public Teacher () {
