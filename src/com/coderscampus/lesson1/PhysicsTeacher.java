@@ -7,6 +7,10 @@ public class PhysicsTeacher extends Teacher {
 		this.setClasses("PHYS 101, PHYS 201");
 		this.setLevelOfEducation("Masters of Science");
 	}
+	
+	public void teach (String teacherName) {
+		System.out.println("I'm a teacher called " + teacherName + " and I'm now teaching physics");
+	}
 
 	@Override
 	public void teach() {
