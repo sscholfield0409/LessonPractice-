@@ -5,9 +5,11 @@ public class Lesson1Application {
 	public static void main(String[] args) {
 		Teacher physicsTeacher = new PhysicsTeacher();
 		
+		PhysicsTeacher phyTecher = (PhysicsTeacher)physicsTeacher;
+		
 		System.out.println(physicsTeacher.getClasses());
 		System.out.println(physicsTeacher.getLevelOfEducation());
-	    ((PhysicsTeacher)physicsTeacher).teach("BoogieScholfield");
+	    phyTecher.teach("BoogieScholfield");
 	    System.out.println("-----");
 	    
 		CompSci compSci = new CompSci();
