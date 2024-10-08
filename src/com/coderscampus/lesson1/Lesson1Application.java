@@ -1,8 +1,18 @@
 package com.coderscampus.lesson1;
 
-public class Lesson1Application {
+import com.coderscampus.lesson1.compsci.CompSci;
+import com.coderscampus.lesson1.phys.PhysicsTeacher;
+import com.coderscampus.lesson1.qphy.QuantamPhysicsTeacher;
 
+public class Lesson1Application {
+	
+	// Access Modifiers in Java are: public, protected, package, private
+	// protected modifiers refer to inheritance 
 	public static void main(String[] args) {
+		PackageAccessModifierExample example = new PackageAccessModifierExample();
+		System.out.println(example.someValue);
+		System.out.println("----");
+		
 		Teacher physicsTeacher = new PhysicsTeacher();
 		
 		//PhysicsTeacher castedPhysicsTeacher = (PhysicsTeacher)physicsTeacher;
@@ -11,6 +21,8 @@ public class Lesson1Application {
 		System.out.println(physicsTeacher.getLevelOfEducation());
 		((PhysicsTeacher)physicsTeacher).teach("BoogieScholfield");
 	    //castedPhysicsTeacher.teach("BoogieScholfield");
+		((PhysicsTeacher)physicsTeacher).mrkPapers();
+		
 	    System.out.println("-----");
 	    
 		CompSci compSci = new CompSci();
