@@ -16,7 +16,11 @@ public class WrapperExampleApplication {
 		 */
 		
 		int primitiveInt = 9;
-		Integer wrapperInt = 9; // auto-boxing 
+		Integer wrapperInt = 9; // auto-boxing- ability to use a non-object value 
+		//and assign it into an actual object. 
+
+		primitiveInt = Integer.valueOf(9); // un-boxing. the opposite of auto-boxing. 
+		// Integer wrapper class provides more options when using "." like "Integer."
 		
 		String someNumber = "123";
 		String someOtherNumber = "456";
@@ -26,9 +30,12 @@ public class WrapperExampleApplication {
 			
 		}
 		
-		System.out.println(someNumber + someOtherNumber);
+		System.out.println(someNumber + someOtherNumber); // This would result
+		//in the console outputting "123456" as Strings, instead of adding them
+		//like numbers
 		System.out.println(Integer.parseInt(someNumber) + Integer.parseInt(someOtherNumber));
-		
+		//This parsing of the Integers would allow for the numbers
+		//to be added as numbers instead of concatenated as Strings 
 		Integer anotherIntWrapper = Integer.valueOf(9);
 		
 		Boolean someBoolean = null;
